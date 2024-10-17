@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/MainMenuStyle.uss?fileID=7433441132597879392&amp;guid=3c506a41182a39942aa7e3d2394ea1f8&amp;type=3#MainMenuStyle" />
+    <ui:VisualElement name="Background" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); height: 299px; flex-direction: column; justify-content: space-around; align-self: auto; align-items: center;">
+        <ui:Label tabindex="-1" text="Vegetable Ninja" display-tooltip-when-elided="true" name="Name" style="-unity-font: url(&apos;project://database/Assets/Fonts/go3v2.ttf?fileID=12800000&amp;guid=456f13d602e472641a362a45a3094011&amp;type=3#go3v2&apos;); font-size: 80px; -unity-font-style: bold; -unity-text-align: middle-center; height: 129px; color: rgb(255, 255, 255); -unity-text-outline-width: 1px; -unity-text-outline-color: rgb(0, 0, 0); text-shadow: 2px 2px 1px rgb(64, 110, 255); -unity-font-definition: initial;" />
+        <ui:GroupBox name="Buttons" style="position: relative; height: 106px; width: 486px; top: 0; left: 0; align-items: stretch; justify-content: center; align-self: center; flex-direction: column;">
+            <ui:Button text="Play" display-tooltip-when-elided="true" name="PlayButton" />
+            <ui:Button text="Quit" display-tooltip-when-elided="true" name="QuitButton" />
+        </ui:GroupBox>
+    </ui:VisualElement>
+</ui:UXML>
